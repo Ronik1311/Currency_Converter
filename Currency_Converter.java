@@ -7,7 +7,7 @@ public class Currency_Converter {
         {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println("CAD = 1, USD = 2; RUB = 3");
+            System.out.println("CAD = 1, USD = 2; RUBLE = 3");
             System.out.print("First currency name: ");
             int first = scanner.nextInt();
 
@@ -94,6 +94,12 @@ public class Currency_Converter {
                         }
                     }
                 }
+            } else{
+                System.out.println("");
+                System.out.println("----------------------------------------------");
+                System.out.println("E R R O R! ENTER 1 - CAD, 2 - USD OR 3 - RUBLE");
+                System.out.println("----------------------------------------------");
+                System.out.println("");
             }
         }
     }
